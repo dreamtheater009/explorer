@@ -1,0 +1,38 @@
+{
+  "chain_name": "epix",
+  "api": [
+    {
+      "address": "https://epix-rest.stakerhouse.com",
+      "provider": "StakerHouse"
+    },
+    {
+      "address": "https://api-epix.onenov.xyz",
+      "provider": "OneNov"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://epix-rpc.stakerhouse.com",
+      "provider": "StakerHouse"
+    },
+    {
+      "address": "https://rpc-epix.onenov.xyz",
+      "provider": "OneNov"
+    }
+  ],
+  "sdk_version": "0.50.x",
+  "coin_type": "60",
+  "min_tx_fee": "25000",
+  "assets": [
+    {
+      "base": "aepix",
+      "symbol": "EPIX",
+      "exponent": "18",
+      "coingecko_id": "unknown",
+      "logo": "https://raw.githubusercontent.com/OneNov0209/logo/34907b7fb1b469e15728be7c15c221fe4738eb2e/epix.svg"
+    }
+  ],
+  "addr_prefix": "epix",
+  "theme_color": "#5b5bff",
+  "logo": "https://raw.githubusercontent.com/OneNov0209/logo/34907b7fb1b469e15728be7c15c221fe4738eb2e/epix.svg"
+}
